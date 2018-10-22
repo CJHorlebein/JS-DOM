@@ -2,14 +2,25 @@
     background-color: blue;
     color: white;
     padding: 5px;
+    margin: 0;
 }
 
 #accordion {
     width: 400px;
     background-color: yellow;
     margin: auto;
+    padding: 0
 }
 
 #section {
-    padding: 5px;
+    padding: 0px;
+    margin: 0px;
+    height: 100px;
+    transition: height 0.3s;
+    overflow: hidden;
+}
+
+#section p {
+    margin: 0px;
+    padding: 0px;
 }

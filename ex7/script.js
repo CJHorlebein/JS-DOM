@@ -6,7 +6,7 @@ var sectionHeader = document.getElementById("section-header");
 var section = document.getElementById("section");
 
 sectionHeader.addEventListener("click", function(){
-    section.style.display == "none" ? section.style.display = "block" : section.style.display = "none";
+    section.style.height == "0px" ? section.style.height = "100px" : section.style.height = "0px";
 })
 
 
